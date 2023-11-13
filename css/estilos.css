@@ -1,0 +1,449 @@
+
+/* Estilos del texto
+ font-family: 'Montserrat', sans-serif;
+font-family: 'Playfair Display', serif;
+font-family: 'Poppins', sans-serif; */
+
+/* Estilos del menú de navegación */
+
+footer{
+    clip-path: polygon(50% 45%, 0 100%, 100% 100%);
+}
+
+body{
+    background-color: rgb(252, 101, 0)
+}
+
+header{
+    clip-path: circle(65.3% at 50% 0);
+  background-image: url(/img/spooky-halloween-pumpkin-glowing-face.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 900px;
+}
+
+.slogan{
+  font-family: 'Montserrat', sans-serif;
+  color: aliceblue;
+  font-weight: bolder;
+  font-size: 64px;
+  padding-top: 350px;
+}
+
+.txtslogan{
+  font-family: 'Montserrat', sans-serif;
+  color: aliceblue;
+  font-size: 35px;
+  text-shadow: 0px 0px 13px rgba(128, 0, 0, 1),-4px 0px 8px rgba(83, 79, 55, 1),-2px 12px 19px rgba(64, 71, 54, 1);
+
+}
+
+.textblack{
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+    font-weight: bolder;
+    font-size: 28px;
+    text-shadow: 0px 0px 15px rgb(243, 238, 238),3px -6px 9px rgb(199, 220, 235),-4px -1px 10px rgb(225, 203, 223)
+}
+
+.getready{
+    color: #6119af !important;
+    font-weight: bolder;
+    font-size: 52px;
+
+}
+
+.p2{
+    font-size:28px;
+}
+
+.p3{
+    font-size:22px;
+}
+
+
+.p4{
+    padding-top: 100px !important;
+    font-size: 24px;
+} 
+
+
+.segundop{
+    color: #6119af !important;
+    font-weight: bolder;
+}
+
+h3{
+    font-size: 40px;
+
+}
+
+h1, h2, h3, h4, h5, p{
+  font-family: 'Montserrat', sans-serif;
+  color: #FFFFFF;
+}
+
+
+/* Scroll top button */
+.go-top {
+    position: fixed;
+    bottom: 1em;
+    right: 1em;
+    text-decoration: none;
+    padding: 1em;
+    border-radius: 30px;
+}
+  
+.go-top img:hover {
+    transform: scale(1.5);
+    transition: all 0.6s;
+    border-radius: 30px;
+}
+
+.extra{
+    height: 300px;
+    padding-top: 50px;
+    background-color: #000000;
+}
+
+/* Video background */
+
+.video-container{
+    height: 42rem;
+    padding: 12rem;
+}
+
+.text-video{
+    text-shadow: 0px 0px 15px rgb(0, 0, 0),3px -6px 9px rgb(6, 15, 22),-4px -1px 10px rgb(4, 0, 4);
+    font-size: 22px;
+}
+
+.dancetitle{
+    font-size: 42px;
+    font-weight: bolder;
+    background-color: #000000;
+    width: 300px;
+}
+
+/* Accordeon */
+
+.sec-acc{
+    padding: 50px;
+    padding-top: 70px;
+    background-color:#000000
+}
+
+.accordion {
+    max-width: 990px;
+    background: rgba(0, 0, 0, 0.10);
+    height: 300px;
+    margin: 20px auto;
+    display: flex;
+    box-shadow: 0px 20px 30px rgba(0, 0, 0, 0.47);
+    flex-direction: row;
+    cursor: pointer;
+    margin-bottom: 100px;
+}
+.box {
+    position: relative;
+    height: 100%;
+    flex: 1;
+    background-position: left;
+    background-size: cover;
+    transition: .7s;
+    box-shadow: 0px 20px 30px rgba(0, 0, 0, 0.47);
+}
+.box:hover{
+    flex: 7;
+    height: 400px;
+}
+.a1 {
+    background-image:url(/img/compressed.jpg);
+}
+.a2 {
+    background-image: url(/img/pexels-jill-wellington-220426.jpg)
+}
+.a3 {
+    background-image: url(/img/pexels-thirdman-5415416.jpg);
+    color: #fff;
+}
+.a4 {
+    background-image: url(/img/pexels-hatice-baran-14173087.jpg);
+    color: #fff;
+}
+.a5 {
+    background-image: url(/img/pexels-yaroslav-shuraev-5607526.jpg); 
+}
+
+.text{
+    position: absolute;
+    bottom: 0;
+    opacity: 0;
+    padding: 10px;
+}
+
+.box:hover .text{
+    opacity:1;
+}
+
+.text-acc-black{
+    color: #000000 !important;
+    font-weight: bolder;
+    background-color: #FFFFFF;
+    font-size: 19px;
+    
+}
+
+h4{
+    font-size: 22px !important;
+    color: #000000;
+    font-weight: bolder;
+    text-shadow: 0px 0px 15px rgb(243, 238, 238),3px -6px 9px rgb(199, 220, 235),-4px -1px 10px rgb(225, 203, 223)
+}
+
+.p5{
+
+    font-size: 38px !important;
+    color: #6119af;
+    font-weight: bolder;
+}
+
+.p6{
+    font-size: 24px;
+}
+
+ /*ICONO WHATAPP*/
+
+ 
+.whatsapp {
+    position:fixed;
+    width:60px;
+    height:60px;
+    bottom:40px;
+    left:60px;
+    background-color:#119b43;
+    color:#fff;
+    border-radius:50%;
+    line-height: 20px;
+    text-decoration: none;
+    transition: all 1s ease-in;
+}
+
+.fa-whatsapp{
+    padding-right: 68px !important;
+    font-size: 40px;
+}
+  
+div .whatsapp:hover {
+    background-color:rgb(111, 8, 254) !important;
+}
+  
+
+/* boton +18 */
+
+span{
+    position: relative;
+    display: inline-flex;
+    width: 180px;
+    height: 55px;
+    margin: 0 15px;
+    perspective: 1000px;
+  }
+  span a{
+    font-size: 19px;
+    letter-spacing: 1px;
+    transform-style: preserve-3d;
+    transform: translateZ(-25px);
+    transition: transform .25s;
+    font-family: 'Montserrat', sans-serif;
+    
+  }
+  span a:before{
+    position: absolute;
+    content: "+18";
+    height: 55px;
+    width: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 5px solid black;
+    box-sizing: border-box;
+    border-radius: 5px;
+  }
+  span a:after{
+    position: absolute;
+    content: "Para mayores de edad";
+    height: 55px;
+    width: 280px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 5px solid white;
+    box-sizing: border-box;
+    border-radius: 5px;
+  }
+  span a:before{
+    color: #000000;
+    background: rgb(255, 255, 255);
+    transform: rotateY(0deg) translateZ(25px);
+  }
+  span a:after{
+    color: white;
+    font-weight: bolder;
+    background-color: black;
+    transform: rotateX(90deg) translateZ(25px);
+  }
+  span a:hover{
+    transform: translateZ(-25px) rotateX(-90deg);
+  }
+  
+
+/* Subscription Form */
+
+  .content {
+    width: 50%;
+    height: 40px;
+    box-shadow: 2px 4px 10px rgba(0, 0, 0, .2);
+    border-radius: 60px;
+    overflow: hidden;
+  }
+  
+  .subscription {
+    position: relative;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .subscription .add-email{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: none;
+    outline: none;
+    padding: 0 20px;
+  }
+  
+  .subscription .submit-email {
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: calc(100% - 2px);
+    width: 100px;
+    border: none;
+    border-radius: 60px;
+    outline: none;
+    margin: 1px;
+    padding: 0 20px;
+    cursor: pointer;
+    background: #d364cf;
+    color: #090909;
+    transition: width .35s ease-in-out,
+    background .35s ease-in-out;
+  }
+  
+  .subscription.done .submit-email {
+    width: calc(100% - 2px);
+    background: #8a2ee0;
+  }
+  
+  .subscription .submit-email .before-submit,
+  .subscription .submit-email .after-submit {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    line-height: 38px;
+    transition: visibility .35s ease-in-out,
+      opacity .35s ease-in-out;
+  }
+  
+  .subscription.done .submit-email .before-submit,
+  .subscription:not(.done) .submit-email .after-submit {
+    visibility: hidden;
+    opacity: 0;
+  }
+  
+  .subscription .submit-email .after-submit {
+    transition-delay: .35s;
+  }
+  
+  .subscription:not(.done) .submit-email .before-submit,
+  .subscription.done .submit-email .after-submit {
+    visibility: visible;
+    opacity: 1;
+  }
+
+
+  
+
+/* Contador */
+
+
+
+.container {
+    margin: 0 auto;
+    text-align: center;
+    height: 40%;
+   
+}
+
+#headline{
+    font-weight: bolder;
+    font-size: 42px;
+    text-shadow: 0px 0px 15px rgb(213, 34, 177),3px -6px 9px rgb(234, 235, 199)-4px -1px 10px rgb(167, 159, 14)
+}
+
+li {
+    display: inline-block;
+    font-size: 1.5em;
+    list-style-type: none;
+    padding: auto;
+    text-transform: uppercase;
+    color: #FFFFFF;
+  }
+  
+  li span {
+    color: #FFFFFF;
+    display: block;
+    font-size: 4.5rem;
+    margin-bottom: 40px;
+  }
+  
+  .emoji {
+    display: none;
+    padding: 1rem;
+  }
+  
+  .emoji span {
+    font-size: 4rem;
+    padding: 0 .5rem;
+  }
+  
+  @media all and (max-width: 768px) {
+    h1 {
+      font-size: calc(1.5rem * var(--smaller));
+    }
+    
+    li {
+      font-size: calc(1.125rem * var(--smaller));
+    }
+    
+    li span {
+      font-size: calc(3.375rem * var(--smaller));
+    }
+  }
+
+.lottie{
+    padding-top: 0px;
+    margin-top: 0px;
+}
+
+.susc{
+    margin-bottom: 0px;
+
+}
